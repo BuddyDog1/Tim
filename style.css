@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding-top: 900px;
+    text-align: center;
+}
+.profile {
+    border-radius: 50%;
+}
+#welcome {
+position: absolute;
+bottom: 0;
+background: linear-gradient(#42f5b3 0%, #42e3f5 100%);
+display: table;
+width:100%;
+height: 100%;
+}
+h1 {
+    font-size: 40px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight:300;
+}
+#name {
+    font-size:50px;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+}
+h2{
+    font-size:30px;
+    font-family:monospace;
+    font-weight: 300;
+}
+#bio {
+    font-family: cursive;
+    padding: 50px;
+}
+.line {
+    height: 6px;
+    width:70px;
+    margin: 8px auto;
+    background-color: #0f0f0f;
+}
+.parallax-inner {
+    display: table-cell;
+    vertical-align: middle;
+
+}
+
+.menu {
+list-style:none;
+position: fixed;
+top:0px;
+margin-top:0px;
+width:100%;
+background-color: rgb(213, 149, 255);
+z-index:10;
+cursor:pointer;
+
+}
+
+.links {
+    padding-left:33px;
+    padding-right:25px;
+    font-family: fantasy;
+    font-size: 20px;
+    display: inline;
+}
+
+.links:hover{
+    font-size:25px;
+    text-decoration: underline;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+#contact{
+    background-color: rgb(253, 0, 253);
+}
+#contact iframe{
+    width:100%;
+}
+.contact_1 h3{
+    display: inline;
+}
